@@ -1,1 +1,35 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: 
+    "header header header header"
+    "nav main main main"
+    "nav main main main"
+    "footer footer footer footer"
+    ;
+}
 
+header {
+    grid-area: header;
+    margin: 10px;
+}
+
+nav {
+    grid-area: nav;
+    margin: 15px;
+}
+
+li {
+    text-decoration: none;
+}
+
+main {
+    grid-area: main;
+    margin: 10px;
+}
+
+footer {
+    grid-area: footer;
+    margin: 10px;
+}
