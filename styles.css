@@ -8,44 +8,25 @@ body {
 /* Header section */
 
 h1 {
-    display: flex;
-    font-size: 25em;
-    text-align: center;
-    justify-content: center;
-    margin-top: 20px;
-    margin-bottom: 30px;
-    padding: 20px;
+     
 }
 
 p {
-    display: flex;
-    justify-content: flex-end;
-    margin: 10px;
-    padding: 50px;
+     
 }
 
 header {
-    width: 100vw;
-    height: 100vh;
-    background-color: bisque;
+     
 }
 
-#video {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    padding: 20px;
-}
+ 
 
 /* End of header section */
 
 /* Nav bar section */
 
 nav {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    align-content: center;
-    text-align: center;
+     
 }
 
 
