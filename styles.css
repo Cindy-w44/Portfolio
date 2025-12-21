@@ -1,65 +1,69 @@
-/* Important stuff */
 body {
-    
+    display: grid;
+    background-color: aquamarine;
+    height: 100%;
+    grid-template-areas: 
+    "nav nav nav"
+    "main main main"
+    "main main main"
+    "footer footer footer";
 }
-
-/* End of important stuff */ 
-
-/* Header section */
-
-h1 {
-     
-}
-
-p {
-     
-}
-
-header {
-     
-}
-
- 
-
-/* End of header section */
-
-/* Nav bar section */
 
 nav {
-     
+    grid-area: nav;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10px;
+    margin: 20px;
+    background-color: aqua;
+    border: 2px black solid;
+    border-radius: 25px;
 }
 
-
-/* End of nav bar section */
-
-/* Main/body section */
-
-main {
-    
+.navigation {
+    display: grid;
+    place-content: center;
+    border: 2px black solid;
+    border-radius: 25px;
+    margin: 20px;
 }
 
-/* End of main/body section */
+.main-card {
+    grid-area: main;
+    background-color: aqua;
+    border: 2px black solid;
+    border-radius: 25px;
+    margin: 30px;
+    padding: 20px;
+    place-content: center;
+    height: 100vh;
+    width: 90vw;
+}
 
-/* Footer section */
+.project-card {
+    background-color: aqua;
+    border: 2px black solid;
+    border-radius: 25px;
+    margin: 30px;
+    padding: 20px;
+    place-content: center;
+}
+
+.socials-card {
+    background-color: aqua;
+    border: 2px black solid;
+    border-radius: 25px;
+    margin: 30px;
+    padding: 20px;
+    place-content: center;
+}
 
 footer {
-    
+    grid-area: footer;
+    margin: 20px;
 }
 
-/* End of footer section */
+a {
+    text-decoration: none;
+}
 
-/* End of code */
-/* --------------------------------------------------------------------------------------------------------------- */ 
-/* About.html */
-
-
-
-
-/* End of About.html section */
-/* --------------------------------------------------------------------------------------------------------------- */
-/* Provinces.html */
-
-
-
-
-/* End of Provinces.html section */
